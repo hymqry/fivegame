@@ -1,0 +1,12 @@
+{
+    "name": "五子棋游戏",
+    "postCreateCommand": "python -m http.server 8080",
+    "forwardPorts": [8080],
+    "portsAttributes": {
+        "8080": {
+            "label": "五子棋",
+            "onAutoForward": "notify",
+            "visibility": "public"
+        }
+    }
+}
