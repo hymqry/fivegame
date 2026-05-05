@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: five-gomoku
+    runtime: python
+    buildCommand: ""
+    startCommand: python server.py
+    healthCheckPath: /
